@@ -1,7 +1,6 @@
 import CenterVertically from '@/components/CenterVertically'
-import Section from '@/components/section'
+import Section from '@/components/Section'
 import Head from 'next/head'
-import Image from 'next/image'
 
 export default function Home() {
 	return (
