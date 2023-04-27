@@ -1,0 +1,11 @@
+:root {
+	--color: hsla(0, 0%, 0%, 0.871);
+	--bgColor: hsl(0, 0%, 98%);
+}
+
+.section {
+	&.fullHeight {
+		height: 100vh;
+		height: 100dvh;
+	}
+}
