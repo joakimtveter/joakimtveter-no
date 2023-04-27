@@ -1,0 +1,17 @@
+.content-width-container {
+	height: 100%;
+	max-width: 1000px;
+	margin-inline: auto;
+}
+
+.full-width-container {
+	height: 100%;
+	max-width: 1200px;
+	margin-inline: auto;
+}
+
+.center-vertically {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}

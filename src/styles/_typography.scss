@@ -1,0 +1,95 @@
+$font-family-display: 'Open Sans', sans-serif;
+$font-family-heading: 'Open Sans', sans-serif;
+$font-family-body: 'Open Sans', sans-serif;
+
+$font-size-n4: 0.3125rem;
+$font-size-n3: 0.4375rem;
+$font-size-n2: 0.5625rem;
+$font-size-n1: 0.75rem;
+$font-size-1: 1rem;
+$font-size-2: 1.3125rem;
+$font-size-3: 1.75rem;
+$font-size-4: 2.3125rem;
+$font-size-5: 3.125rem;
+$font-size-6: 4.1875rem;
+$font-size-7: 5.5625rem;
+$font-size-8: 7.4375rem;
+$font-size-9: 9.9375rem;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 600;
+$font-weight-bold: 700;
+
+body {
+	font-family: $font-family-body;
+	font-size: $font-size-2;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	font-family: $font-family-heading;
+	font-weight: $font-weight-medium;
+}
+
+.display-1,
+.display-2,
+.display-3 {
+	font-family: $font-family-display;
+}
+
+.display-1 {
+	font-size: $font-size-9;
+}
+
+.display-2 {
+	font-size: $font-size-8;
+}
+
+.display-3 {
+	font-size: $font-size-7;
+}
+
+h1,
+.h1 {
+	font-size: $font-size-6;
+}
+
+h2,
+.h2 {
+	font-size: $font-size-5;
+}
+
+h3,
+.h3 {
+	font-size: $font-size-4;
+}
+
+h4,
+.h4 {
+	font-size: $font-size-3;
+}
+
+h5,
+.h5 {
+	font-size: $font-size-2;
+}
+
+h6,
+.h6 {
+	font-size: $font-size-1;
+}
+
+p:not(.wide) {
+	max-width: 66ch;
+}

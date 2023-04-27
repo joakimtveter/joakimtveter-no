@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+body {
+	min-height: 100vh;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+img,
+picture,
+figure,
+video,
+canvas {
+	max-width: 100%;
+	display: block;
+}
+
+input,
+button,
+textarea,
+select {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+abbr {
+	cursor: help;
+}
+
+address {
+	font-style: normal;
+}
+
+a {
+	color: inherit;
+	cursor: pointer;
+}
+
+p a {
+	font-weight: 600;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
