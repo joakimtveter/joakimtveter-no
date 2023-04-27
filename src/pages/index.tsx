@@ -19,11 +19,19 @@ export default function Home() {
 			</Head>
 			<Section fullHeigt={true}>
 				<CenterVertically>
-					<h1>Hei mitt navn er Joakim Tveter</h1>
+					<h1>Hei, jeg heter Joakim Tveter</h1>
+					<br />
+					<p className='h4'>
+						Jeg jobber som Webutvikler, og studerer på <a href='http://noroff.no'>Noroff</a>.
+					</p>
 					<p className='h4'>
 						Jeg måtte bytte ut siden min i en fart, så den nye er ikke helt ferdig enda.
 					</p>
-					<a href='https://www.linkedin.com/in/joakim-tveter/'>Kontakt meg på LinkedIn</a>
+					<br />
+					<p>
+						<a href='https://www.linkedin.com/in/joakim-tveter/'>Kontakt meg på LinkedIn</a>, eller{' '}
+						<a href='https://github.com/joakimtveter'>sjekk ut min github </a>
+					</p>
 				</CenterVertically>
 			</Section>
 		</>
